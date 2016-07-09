@@ -1,7 +1,7 @@
 __module_name__ = "URL Shortener" 
 __module_version__ = "1.0.1" 
 __module_description__ = "Parses given text for URLs and shortens them using is.gd"
-__module_author__ = "Lacer <lacer.dragon(at)hotmail.com>"
+__module_author__ = "Lacer <lacer.dragon(at)hotmail.com>, Fabian Beuke <mail(at)beuke.org>"
 
 import hexchat, re
 from pyshorteners.shorteners  import Shortener
