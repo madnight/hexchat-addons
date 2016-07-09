@@ -11,6 +11,8 @@ This is a hexchat script that turns your long link-laden chat lines into nice, c
 
 ### Installation
     pip install pyshorteners validators
+   http://hexchat.readthedocs.io/en/latest/faq.html#how-do-i-auto-load-scripts-at-startup
+   
 
 ### Notes
    For chat messages containing multiple links, since each link involves accessing
