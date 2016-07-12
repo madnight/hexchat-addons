@@ -5,8 +5,7 @@ __module_author__ = "madnight"
 __module_version__ = "0.0.1"
 __module_description__ = "Ignores IRC People and their mentioning"
 
-
-ignorelist = ['']
+ignorelist = []
 
 def loadlist():
     global ignorelist
@@ -23,12 +22,10 @@ def savelist():
 
 def ignore(word, word_eol, userdata):
     global ignorelist
-    #ignorelist = ['Rasi', 'Testabc']
-
     for nick in ignorelist:
         if not nick:
             return hexchat.EAT_ALL
-    # word_eol[0] contains nick an msg
+        # word_eol[0] contains nick an msg
         if re.search(nick +'[,:\s]', word_eol[0]) is not None: 
             return hexchat.EAT_ALL
 
