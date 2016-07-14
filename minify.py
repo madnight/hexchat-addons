@@ -22,5 +22,5 @@ def minify_callback(word, word_eol, userdata):
     return hexchat.EAT_ALL
 
 # empty string hook to capture every message a user sends
-hexchat.hook_command("", minify_callback)
+hexchat.hook_command("min", minify_callback)
 hexchat.prnt("URL Shortener Version " + __module_version__ + " loaded!")
