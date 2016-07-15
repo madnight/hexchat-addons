@@ -27,3 +27,19 @@ This is a hexchat script that turns your long link-laden chat lines into nice, c
 
    Feel free to email me with messages about bad coding, cool butterflies, deals on viagra,
    or what your favorite Jolly Rancher flavor is. I probably wont read it.
+   
+## Hexchat Advanced Ignore
+This script extens the normal IRC /ignore function by also ignoring the mentioning of the ignored nick.
+### Example
+   Before:
+   
+        IgnoreMe: These butterflies are so amazing!
+        Nick123: IgnoreMe, cool!
+   After:
+         
+         
+         
+### Usage
+        /addignore IgnoreMe
+        /delignore IgnoreMe
+
