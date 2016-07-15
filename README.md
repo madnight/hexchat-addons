@@ -1,4 +1,8 @@
-# Hexchat Url Shortenter
+# Hexchat Addons
+[![Code Climate](https://codeclimate.com/github/madnight/hexchat-addons/badges/gpa.svg)](https://codeclimate.com/github/madnight/hexchat-addons)
+[![Issue Count](https://codeclimate.com/github/madnight/hexchat-addons/badges/issue_count.svg)](https://codeclimate.com/github/madnight/hexchat-addons)
+
+## Hexchat Url Shortenter
 This is a hexchat script that turns your long link-laden chat lines into nice, concise sentences using the magic of the ethical URL shortening service is.gd.
 
 ### Example
