@@ -13,6 +13,8 @@ This is a hexchat script that turns your long link-laden chat lines into nice, c
     pip install pyshorteners validators
    http://hexchat.readthedocs.io/en/latest/faq.html#how-do-i-auto-load-scripts-at-startup
    
+### Usage
+        /min These butterflies are so amazing! http://image.naldzgraphics.net/2011/04/1-dreams.jpg
 
 ### Notes
    For chat messages containing multiple links, since each link involves accessing
